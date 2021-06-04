@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+:root {
+    --Yellow: rgb(255, 201, 60);
+}
+.header{
+    width: 100%;
+    font-family: "Oswald";
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#nav-link-header {
+    background: var(--Yellow);
+}
+
+.container {
+    width: 870px;
+}
+.option-list > a {
+    color: black !important;
+    font-size: 0.7em;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+.option-list > a:hover {
+    color:white !important;
+    transition: 0.1s ease all;
+}
+
+.bikehand{
+    background-image: url(/img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    padding: 120px;
+    display: block;
+    font-family: "Oswald";
+    
+  }
+  .bikehand h2{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: "Oswald";
+    text-transform: uppercase;
+    display: flex;
+    letter-spacing: 4px;
+    font-size: 45px;
+    text-align: center;
+  }
+  .bikehand h3{
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+  .bikehand p {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: sans-serif;
+    text-transform: bold;
+    text-align: center;
+  }
+  .bikehand .btn{
+    background: transparent;
+    color: var(--yellow);
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+    border-width: 3px;
+    border-style:solid;
+    border-color: var(--yellow);
+    width: 200px;
+    height: 50px;
+  }
+  .bikehand .btn:hover{
+    color: white;
+    background: transparent;
+    border-color: white;
+    transition: 0.5s;
+  }
+.bikehand .bottom-line{
+    background: var(--Yellow);
+    width: 100px;
+}
+.produtos .text-button{
+    justify-content: center;
+    display: flex;
+    padding-top: 40px;
+    font-family: "Oswald";
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.produtos .btn{
+    background: transparent;
+    color: var(--yellow);
+    text-transform: uppercase;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    border-width: 3px;
+    border-style:solid;
+    border-color: var(--yellow);
+    width: 200px;
+    height: 50px;
+  }
+  .produtos .btn:hover{
+    color: black;
+    background: transparent;
+    border-color: black;
+    transition: 0.5s;
+  }
+.subtitle{
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Oswald";
+}
+.subtitle h1{
+    font-size: 35px;
+    letter-spacing: 3px;
+}
+.subtitle .bottom-line{
+    background: black;
+    height: 1px;
+    width: 60%;
+}
+.cardgeral{
+    width: 50%;
+    display: flex;
+    margin: auto;
+    margin-top: 25px;
+}
+.cardgeral .blackground{
+    background: black;  
+}
+.cardgeral .passeio .card-body{
+    background: var(--Yellow);  
+}
+.cardgeral .blackground{
+    background: black; 
+    padding: 10px; 
+}
+.cardgeral .esporte .card-body{
+    background: var(--Yellow);  
+}
+.cardgeral .blackground{
+    background: black; 
+    padding: 10px; 
+}
+.cardgeral .retro .card-body{
+    background: var(--Yellow);  
+}
+
+
+
+.portfolio{
+    background: black;
+    margin: auto;
+}
+.portfolio h1{
+    justify-content: center;
+    text-align: center;
+    color: var(--Yellow);
+    font-family: "Oswald";
+    letter-spacing: 2px;
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+}
+.portfolio h1 .bottom-line{
+    background: var(--Yellow);
+    height: 1px;
+    width: 5%;
+}
+
+.img-retro{
+    padding-left: 0;
+    padding-right: 0;
+    height: auto;
+}
+.img-passeio{
+    padding-left: 0;
+    padding-right: 0;
+    height: auto;
+}
+.greenbike{
+    padding-left: 0;
+    padding-right: 0;
+    height: auto;
+    margin-bottom: 50px;
+}
+.portfolio p{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+    font-family: "Oswald";
+}
+.portfolio .btn{
+    background: transparent;
+    color: var(--yellow);
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    border-width: 3px;
+    border-style:solid;
+    border-color: var(--yellow);
+    width: 200px;
+    height: 50px;   
+    margin-bottom: 20px;
+}
+.portfolio .btn:hover{
+    color: rgb(255, 255, 255);
+    background: transparent;
+    border-color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+.centralizar {
+    margin: 0 auto;
+    text-align: center;
+}
+.container .nossa-history {
+    text-align: left;
+    color: var(--Yellow);
+}
+.container .nossa-history p,
+li {
+    font-size: 0.8rem;
+    color: white;
+}
+.container .nossa-history h4 {
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+.container .nossa-history .bottom-line {
+    border-top: solid 2px var(--Yellow);
+    width: 3rem;
+    margin-left: 0;
+}
+
+.sea{
+    background-image: url(/img/bg-footer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.sea p{
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+}
+.sea h2{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+}
+.sea .bottom-line{
+    background: white;
+    width: 70px;
+    height: 3px;
+    display: flex;
+}
+
+footer {
+    background: black;
+    
+}
+.nossa-history:first-child {
+    width: 400px;
+}
+.contact-list li:before {
+    content: "- ";
+}
+.social-media-icon {
+    display: flex;
+    border: solid 2px var(--Yellow);
+    padding: 12px 16px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+.social-media li, 
+.social-media-icon {
+    font-size: 30px;
+}
+.social-media li {
+    margin-right: 10px;
+}
+.social-media-icon {
+    color: var(--Yellow);
+    font-size: 25px;
+}
+.footer-bottom {
+    font-size: 13px;
+    background: var(--Yellow);
+    font-weight: bold;
+}
+
+.produtos .imgr{
+    background: black;
+}
+.produtos .texp{
+    background: var(--Yellow);
+}
+.produtos h3{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Oswald";
+    font-size: 25px;
+    text-align: center;
+}
+.produtos p{
+    font-weight: bold;
+    font-family: "Oswald";
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.produtos .bottom-line{
+    width: 15%;
+    height: 1.5px;
+    background: black;
+}
+.abc{
+    border: none !important ;
+}
+@media (max-width: 700px)
+{
+ .abc{
+     margin-bottom: 10px;
+ }
+ .img-passeio, .img-retro{
+    margin-bottom: 5px;
+ }
+ .tel{
+     margin: auto;
+ }
+}
